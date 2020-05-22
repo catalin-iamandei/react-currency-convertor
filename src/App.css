@@ -1,0 +1,80 @@
+body{
+  background-color: #F9F4F4;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+h1{
+  margin: 0;
+  margin-bottom: .5rem;
+}
+.input{
+  border: none;
+  padding: .25rem;
+  width: inherit;
+  display: block;
+  outline: none;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+}
+select {
+  display: block;
+  background: transparent;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin: 0 auto 1rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+.equals {
+  font-weight: bold;
+  font-size: 4rem;
+  position: absolute;
+  color: #FE5152;
+  background-color: #fff;
+  border: 6px solid #FE5152;
+  top: calc(50% - 45px);
+  left: 0;
+  right: 0;
+  line-height: 75px;
+  margin: auto;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.box{
+  box-shadow: .2rem .2rem .5rem #F3E9EA;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+.from, .to{
+  padding: 3.5rem 1rem;
+}
+.from{
+  padding-bottom: 5rem;
+  background-color: #FE5152;
+}
+.to{
+  padding-top: 5rem;
+  background-color: #fff;
+}
+.from .input{
+  color: #fff;
+}
+.from select{
+  color: #fff;
+}
+.to .input{
+  color: #FE5152;
+}
+.to select{
+  color: #FE5152;
+}
